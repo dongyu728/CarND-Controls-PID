@@ -32,8 +32,8 @@ void PID::UpdateError(double cte) {
 
 double PID::TotalError() {
 	
-	total_error_= p_error_ + d_error_ + i_error_;
-	return total_error_;
+	total_error= p_error + d_error+ i_error;
+	return total_error;
 }
 
 
